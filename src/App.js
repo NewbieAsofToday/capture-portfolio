@@ -7,6 +7,7 @@ import OurWork from "../src/pages/OurWork";
 import { Route, Routes, useLocation } from "react-router-dom";
 import MovieDetail from "./pages/MovieDetail";
 import { AnimatePresence } from "framer-motion";
+
 function App() {
   const location = useLocation();
   return (
